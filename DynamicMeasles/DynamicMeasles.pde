@@ -1,4 +1,17 @@
 //Global Variables
+//
+void setup() {}//End setup
+//
+void draw() {}//End draw
+//
+void keyPressed() {}//End keyPressed
+//
+void mousePressed() {}//End mousePressed
+//
+//End Main Program
+
+/*
+//Global Variables
 int reset, smallerDisplayDimesion, mouthOpen;
 float rectFaceX, rectFaceY, rectFaceWidth, rectFaceHeight;
 float faceX, faceY, faceDiameter;
@@ -29,7 +42,6 @@ if ( orientation=="Landscape or Square" ) {
 } else { 
   println("Turn your phun"); //FUN
 }
-*/
 //
 //Variable Population: notice using appWidth & appHeight to move between size() & fullScreen()
 smallerDisplayDimesion = appHeight; //ALWAYS in Landscape
@@ -103,3 +115,4 @@ fill(measleColour);
 ellipse( measleX, measleY, measleDiameter, measleDiameter ); 
 stroke(reset); //reset to 1 pixel
 fill(whiteReset); //reset to first colour (i.e. blackReset)
+*/
